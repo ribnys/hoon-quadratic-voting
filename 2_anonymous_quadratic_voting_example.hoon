@@ -287,12 +287,6 @@
   |=  [a=anon-qpoll =qvote]
   ^-  anon-qpoll-and-key
   ::
-  :: Assign faces to the contents of the anon-qpoll 'a'
-  ::=/  v=voteholder  +15:a
-  ::=/  insurance=(list insurance)  +6:a
-  ::=/  signatures=(list signature)  +14:a
-  ::=/  =qpoll  +2:a
-  ::
   =/  mysignature=@p  p.bec
   =/  myinsurance=@  %-  shad
   (add eny (add mysignature (add (sham a) (sham qvote))))
